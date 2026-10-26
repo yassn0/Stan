@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+evm_version = "paris"
+solidity_version = "0.8.19"
+
+remappings = [
+  "chainlink-evm/contracts/=lib/chainlink-brownie-contracts/contracts/",
+  "openzeppelin-contracts/=lib/chainlink-brownie-contracts/contracts/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/"
+]
